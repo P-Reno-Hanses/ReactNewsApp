@@ -1,0 +1,43 @@
+.navbar__wrapper {
+
+}
+
+.navbar__items {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar__logo {
+cursor: pointer;
+}
+
+
+.logo {
+    width: 200px;
+    opacity: 0.9;
+    transition: all 200ms ease;
+}
+
+.logo:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.nav__bar--links {
+display: flex;
+margin-right: 30px;
+}
+
+.nav__bar--link {
+margin-left: 30px;
+font-weight: 500;
+opacity: 0.9;
+cursor: pointer;
+transition: all 200ms ease;
+}
+
+.nav__bar--link:hover {
+    opacity: 1;
+    scale: 1.03;
+}
